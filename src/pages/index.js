@@ -126,6 +126,17 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <div className="grid columns-3">
+        <h2>
+          item 1
+        </h2>
+        <h2>
+          item 2
+        </h2>
+        <h2>
+          item 3
+        </h2>
+      </div>
       <h1 style={headingStyles}>
         Congratulations
         <br />
