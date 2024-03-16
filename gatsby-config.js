@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby x Contentful`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: 'Gatsby x Contentful',
+    siteUrl: 'https://www.yourdomain.tld',
   },
   plugins: [
     // {
@@ -15,17 +15,18 @@ module.exports = {
     //   }
     // },
     'gatsby-plugin-postcss',
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     // "gatsby-plugin-google-gtag",
-    "gatsby-plugin-sitemap", {
+    'gatsby-plugin-sitemap',
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
-        "name": "images",
-        "path": "./src/images/"
+        name: 'images',
+        path: './src/images/',
       },
-      __key: "images"
-    }
-  ]
+      __key: 'images',
+    },
+  ],
 };
