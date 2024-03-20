@@ -7,7 +7,7 @@ function Page({ children }) {
   return (
     <div>
       <Header />
-      <div className="p-5 bg-slate-400 min-h-[500px]">{children}</div>
+      <div className="p-5 min-h-[500px] bg-slate-950">{children}</div>
       <Footer />
     </div>
   );

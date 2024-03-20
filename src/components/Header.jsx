@@ -3,14 +3,14 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      <div className="bg-gray-100 border-b border-gray-200">
+      <div className="bg-slate-950 border-b border-slate-700">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <nav className="relative flex items-center justify-between h-16 lg:h-20">
             <div className="hidden lg:flex lg:items-center lg:space-x-10">
               <a
                 href="#asd"
                 title=""
-                className="text-base font-medium text-black"
+                className="text-base font-medium text-white"
               >
                 {' '}
                 Features
@@ -19,7 +19,7 @@ function Header() {
               <a
                 href="#dsa"
                 title=""
-                className="text-base font-medium text-black"
+                className="text-base font-medium text-white"
               >
                 {' '}
                 Solutions
@@ -28,7 +28,7 @@ function Header() {
               <a
                 href="#ss"
                 title=""
-                className="text-base font-medium text-black"
+                className="text-base font-medium text-white"
               >
                 {' '}
                 Resources
@@ -37,19 +37,20 @@ function Header() {
               <a
                 href="#a"
                 title=""
-                className="text-base font-medium text-black"
+                className="text-base font-medium text-white"
               >
                 {' '}
                 Pricing
               </a>
             </div>
 
-            <div className="lg:absolute lg:-translate-x-1/2 lg:inset-y-5 lg:left-1/2">
+            <div>
               <div className="flex-shrink-0">
                 <a href="#ds" title="" className="flex" aria-label="logo">
                   <img
-                    className="w-auto h-8 lg:h-10"
-                    src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
+                    className="w-auto h-[100px]"
+                    // src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
+                    src="https://blackbox.com.sg/wp-content/uploads/2020/12/logo-preview-white_35-1.png"
                     alt=""
                   />
                 </a>
@@ -79,7 +80,7 @@ function Header() {
 
             <button
               type="button"
-              className="inline-flex p-2 ml-5 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
+              className="inline-flex p-2 ml-5 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-slate-500 hover:bg-slate-500"
               aria-label="button"
             >
               <svg
@@ -102,7 +103,7 @@ function Header() {
               <a
                 href="#d"
                 title=""
-                className="text-base font-medium text-black"
+                className="text-base font-medium text-white"
               >
                 {' '}
                 Sign up
@@ -111,7 +112,7 @@ function Header() {
               <a
                 href="#d"
                 title=""
-                className="text-base font-medium text-black"
+                className="text-base font-medium text-white"
               >
                 {' '}
                 Sign in
@@ -143,16 +144,16 @@ function Header() {
         </div>
       </div>
 
-      <nav className="py-4 bg-white lg:hidden">
+      <nav className="py-4 bg-slate-950 lg:hidden">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
-            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
+            <p className="text-sm font-semibold tracking-widest text-white uppercase">
               Menu
             </p>
 
             <button
               type="button"
-              className="inline-flex p-2 text-black transition-all duration-200 rounded-md focus:bg-gray-100 hover:bg-gray-100"
+              className="inline-flex p-2 text-white transition-all duration-200 rounded-md focus:bg-slate-500 hover:bg-slate-500"
               aria-label="button"
             >
               <svg
@@ -177,7 +178,7 @@ function Header() {
               <a
                 href="#as"
                 title=""
-                className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
+                className="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
               >
                 {' '}
                 Features
@@ -186,7 +187,7 @@ function Header() {
               <a
                 href="#as"
                 title=""
-                className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
+                className="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
               >
                 {' '}
                 Solutions
@@ -195,7 +196,7 @@ function Header() {
               <a
                 href="#d"
                 title=""
-                className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
+                className="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
               >
                 {' '}
                 Resources
@@ -204,7 +205,7 @@ function Header() {
               <a
                 href="#s"
                 title=""
-                className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
+                className="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
               >
                 {' '}
                 Pricing
@@ -217,7 +218,7 @@ function Header() {
               <a
                 href="#s"
                 title=""
-                className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
+                className="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
               >
                 {' '}
                 Sign up
@@ -226,7 +227,7 @@ function Header() {
               <a
                 href="#s"
                 title=""
-                className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
+                className="py-2 text-base font-medium text-white transition-all duration-200 focus:text-blue-600"
               >
                 {' '}
                 Sign in
